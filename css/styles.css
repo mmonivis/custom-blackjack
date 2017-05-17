@@ -1,0 +1,78 @@
+body{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 16px;
+    background: radial-gradient(transparent, #000), url("https://static.vecteezy.com/system/resources/previews/000/109/623/original/free-vector-red-poker-background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+img{
+    max-width:  100%;
+    max-height: 100px;
+    border-radius: 5%;
+}
+
+.header{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.message{
+    margin-top: 20px;
+}
+
+.the-table{
+    background-color: #277714;
+    border: 5px solid #432323;
+    border-bottom: 30px solid #432323;
+    padding: 30px 100px;
+    padding-top: 30px;
+    border-radius: 10px 10px 50% 50%;
+    height: 500px;
+    transform: rotateX(45deg);
+
+}
+
+.deck-wrapper{
+    margin-bottom: 20px;
+}
+
+.who-cards{
+    padding-top: 5%;
+    color: white;
+}
+
+.player-cards{
+    text-align: center;
+}
+
+.card{
+    height: 100px;
+    border: 2px solid #AAB17E;
+    margin: 10px;
+    margin-left: 40px;
+    width: 65px;
+    float: left;
+    border-radius: 5%;
+}
+
+.player-money{
+    margin-top: 20px;
+    color: white;
+}
+
+.table-skew{
+    perspective: 30em;
+}
