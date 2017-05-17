@@ -52,10 +52,20 @@ h1{
 .who-cards{
     padding-top: 5%;
     color: white;
+    transform: scaleY(0.8);
 }
 
 .player-cards{
     text-align: center;
+}
+
+.dealer-cards .card{
+    transform: scaleY(0.8);
+}
+
+.player-cards .card{
+    transform: scaleY(0.7);
+
 }
 
 .card{
@@ -71,6 +81,7 @@ h1{
 .player-money{
     margin-top: 20px;
     color: white;
+    transform: scaleY(0.8);
 }
 
 .table-skew{
